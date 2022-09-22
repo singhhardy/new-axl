@@ -65,7 +65,7 @@
 .form .form-details input[type="text"],
 .form .form-details input[type="email"] {
     padding: 15px 20px;
-    color: var(--black);
+    color: #000;
     outline: none;
     border: 1px solid var(--grey);
     margin: 35px 15px;
@@ -75,7 +75,7 @@
 .form .form-details textarea {
     padding: 15px 20px;
     margin: 0 15px;
-    color: var(--black);
+    color: #000;
     outline: none;
     border: 1px solid var(--grey);
     font-size: 14px;

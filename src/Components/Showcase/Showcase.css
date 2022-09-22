@@ -197,4 +197,7 @@ body{
     .Showcase h1{
       font-size: 40px;
     }
+    .show-btn{
+      margin-left: 0;
+    }
 }
