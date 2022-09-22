@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body{
+    background: var(--primary-color);
+}
+
+.Showcase{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.Showcase h1{
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+}
+
+.Showcase-img img{
+    width: 90%;
+}
+
+.cat-bar{
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    z-index: 1;
+}
+
+.cat-bar .btn-group{
+    padding: 0 20px;
+}
+
+.btn-group button{
+    font-size: bold;
+}
+
+.mybtn{
+    background: var(--secondary-color);
+    padding: 5px 15px;
+    border: 2px solid var(--secondary-color);
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+.mybtn:hover{
+  background: #fff;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  transition: 0.3s ease-in;
+}
+
+.show-btn{
+    margin-left: 15px;
+}
+
+/* buttons */
+  p {
+    margin: 2em 0 1em;
+    line-height: 24px;
+  }
+  
+  .share {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .share a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .share > a {
+    display: inline-block;
+    width: 100px;
+    z-index: 1;
+    font-weight: bold;
+    color: #616267;
+    border: 1px solid #8F8F8F;
+    border-radius: 3px;
+    background: #fff;
+    background-image: -webkit-linear-gradient(top, #FAFBFD, #F6F7FC);
+    background-image: -moz-linear-gradient(top, #FAFBFD, #F6F7FC);
+  }
+  
+  .share > a:hover {
+    background: #eee;
+    background-image: -webkit-linear-gradient(top, #F4F7FC, #FAFBFF);
+    background-image: -moz-linear-gradient(top, #F4F7FC, #FAFBFF);
+  }
+  
+  .share div {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    overflow: hidden;
+    left: 2px;
+    top: 28px;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    transition: all 150ms linear;
+  }
+  
+  .share:hover div {
+    height: 94px;
+    /*
+     * 26px (height of <li>) times the number of <li>s, plus 16px for grippy
+     */
+  }
+  
+  .share ul {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 96px;
+    background: var(--primary-color);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.15), transparent);
+    margin: 0;
+    padding: 2px 0 9px;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-width: 0 1px 1px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.5) inset;
+    z-index: 9999;
+  }
+  
+  .share ul::before {
+    content: '.';
+    text-indent: -9999px;
+    display: block;
+    background: var(--secondary-color);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: -4px;
+    left: 38px;
+    border-radius: 15px;
+    box-shadow:
+      0 -1px 0 rgba(255,255,255,0.5) inset,
+      0 1px 0 #666;
+    z-index: 0;
+  }
+  
+  .share ul::after {
+    content: '.';
+    text-indent: -9999px;
+    display: block;
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    bottom: -2px;
+    left: 42px;
+    border-radius: 15px;
+    border: 1px solid #666;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.5);
+    z-index: 0;
+  }
+  
+  
+  .share:hover ul {
+    bottom: none;
+  }
+  
+  .share ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .share ul li a {
+    display: block;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+  }
+  
+  .share ul li a:hover {
+    text-decoration: underline;
+  }
+
+@media(max-width: 800px){
+    .Showcase{
+        margin-top: 20%;
+    }
+    .Showcase h1{
+      font-size: 40px;
+    }
+}
