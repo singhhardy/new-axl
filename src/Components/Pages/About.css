@@ -236,4 +236,9 @@
         margin-left: 0;
         margin-top: 10%;
     }
+
+    .ab-img img{
+        width: 300px;
+        margin-top: 10%;
+    }
 }
