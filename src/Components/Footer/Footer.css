@@ -6,7 +6,7 @@ footer{
     justify-content: center;
     color: #fff;
     padding: 30px;
-    border: 2px solid #fff;
+    border-top: 1px solid #666;
 }
 
 .icon-container{
@@ -43,4 +43,10 @@ footer{
 
 .copyright{
     text-align: center;
+}
+
+@media(max-width: 700px){
+    footer{
+        margin-top: 10%;
+    }
 }

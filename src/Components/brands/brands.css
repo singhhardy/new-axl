@@ -32,3 +32,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 700px){
+    .brands h1{
+        font-size: 50px;
+    }
+}

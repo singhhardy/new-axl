@@ -21,7 +21,7 @@ function Services() {
 
 
 
-        <div class="row g-5">
+        <div class="row gx-5">
 
             <div class="col-12 col-lg-6">
 
