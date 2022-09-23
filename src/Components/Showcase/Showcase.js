@@ -15,7 +15,7 @@ export const Showcase = () => {
             <h1>
                 <style>{'body { background-color: var(--primary-color); }'}</style>
             </h1>
-            <h1 data-aos="fade-up-right">MANAGE YOUR HOME WITH </h1>
+            <h1>MANAGE YOUR HOME WITH </h1>
             <h1>SMART HOME TECHNOLOGY</h1>
 
 
