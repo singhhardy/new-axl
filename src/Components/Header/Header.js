@@ -23,7 +23,10 @@ function Header() {
                         <a href="/">Home</a>
                         <a href="/About">About</a>
                         <a href="/Contact">Contact</a>
-                        <a href="/Cart"><button className='log-btn'>Login/Signup</button></a>
+                        <a href="/Cart"><button className='mybtn log1'>Login/Signup</button></a>
+                        </div>
+                    <div className='log'>
+                    <a href="/Cart"><button className='log-btn log2'>Login/Signup</button></a>
                     </div>
                 </div>
             </header>
