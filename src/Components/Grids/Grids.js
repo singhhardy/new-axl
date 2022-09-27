@@ -10,7 +10,7 @@ function Grids() {
     return (
         <div className='Gridi'>
         <h1>OUR MAIN SERVICES</h1>
-        <p>These are our services check the fuck out</p>
+        <p>These are our services, check out</p>
         <div className='Grids'>
             <div className='grido' >
                 <h1><i class="fa-regular fa-lightbulb"></i></h1>

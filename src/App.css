@@ -1,5 +1,5 @@
 body{
-  background: var(--primary-color);
+  background: url('/public/about.jpg') ;
   overflow-x: hidden;
   margin: 0;
   width: 100%;
